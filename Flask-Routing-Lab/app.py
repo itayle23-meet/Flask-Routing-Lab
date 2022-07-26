@@ -17,6 +17,18 @@ def home():
 def product():
   return render_template('product.html')
 
+@app.route('/product2')
+def product2():
+  return render_template('product2.html')
+
+@app.route('/product3')
+def product3():
+  return render_template('product3.html')
+  
+@app.route('/product4')
+def product4():
+  return render_template('product4.html')
+
 @app.route('/cart')
 def cart():
   return render_template('cart.html')
