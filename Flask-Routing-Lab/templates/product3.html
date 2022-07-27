@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<script>
+function cart_alert() {
+  alert("Item added to cart!");
+}
+</script>
 <head>
     <meta charset="UTF-8">
     <title>Overcooked eggs</title>
@@ -12,12 +16,13 @@
 <h2>2.99$ (+499.99 for medical fees)</h2>
 <h3> fresh eggs from farm to table! </h3>
 <br>
-<button onclick=""> Add to cart </button>
+<button onclick="cart_alert()"> Add to cart </button>
+
 
 <br>
 <br>
 <div>
-<a = href= "{{ url_for(‘home’) }}" > Homepage </a>
+<a href= "{{ url_for('home') }}" ><button style="color:black;width:40%" >Homepage</button></a>
 </div>
 </body>
 </html>
